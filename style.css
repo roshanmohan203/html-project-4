@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.logo img {
+    width:170px;
+    height:60px;
+}
+.row {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color:white;
+    color: black;
+    align-items: center;
+
+}
+nav ul li a{
+    margin-inline:60px ;
+    font-size: 20px;
+    
+}    
+ nav {
+    display: flex;
+    border-bottom: 8px solid blue;
+ }
+
+.title{
+    padding-top: 20px;
+    background-color:rgb(131, 183, 183)
+}
+
+.section1{
+  background-color:   rgb(131, 183, 183);
+    display: flex;
+    gap: 30px;
+
+    border-bottom: 4px solid blue;
+}
+.right p{
+  width: 449px;
+}
+.right img{
+    width: 700px;
+    height: auto;
+    padding-top:20px ;
+}
+.sec img{
+    width: 300px;
+    padding-top:20px;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    
+}
+.grid-container{
+    background-color:   rgb(131, 183, 183);
+    gap: 30px;
+    border-bottom: 4px solid blue;
+     display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+      }
+      .grid-item {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+      }
+
+ .grid-item img{
+    width:300px;
+}
+.capital h2{
+  background-color: rgb(13, 151, 220);
+}
+.section2{
+    background-color: rgb(131, 183, 183);
+    border-bottom: 4px solid blue;
+    align-items: center;
+    display: flex;
+  
+  }
+  .sec2 button{
+    width: 60px;
+    height: 30px;
+    background-color: palevioletred;
+    border: 2px solid greenyellow;
+    color:black;border-radius:2px;
+  }
+  .sec2 img{
+    width: 700px;
+    padding-left: 20px;
+
+  }
+  .grid .sec3 {
+    background-color:   rgb(131, 183, 183);
+    gap: 30px;
+   padding: 10px;
+
+      }
+      .sec3 img {
+        width:405px;
+        padding-left: 52px;
+        padding-top:35px ;
+        font-size: 18px;
+        text-align: center;
+      }
+      .sectionc{
+        background-color:   rgb(131, 183, 183);
+      
+        gap: 30px;
+    
+        border-bottom: 4px solid blue;
+
+      }
+      .sectionc img{
+        width: 725px;
+      }
+
+  .Footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #2d3748;
+    padding: 10px;
+    
+
+}
+.Footer .list ul li {
+  color:white;
+  display: flex;
+  
+}
+.list ul li{
+    list-style: none;
+    gap:20px;
+}
+.list h4{
+  padding:40px ;
+  padding-left: 325px;
+}
